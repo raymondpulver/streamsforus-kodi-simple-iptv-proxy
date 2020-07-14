@@ -1,0 +1,34 @@
+{
+  "name": "streamsforus-proxy",
+  "version": "0.1.0",
+  "description": "streamsforus kodi proxy",
+  "main": "index.js",
+  "repository": "https://github.com/raymondpulver/streamsforus-kodi-simple-iptv-proxy",
+  "author": "Raymond Pulver IV",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --timeout 0",
+    "start": "cross-env node bin/app"
+  },
+  "private": false,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "htmlparser2": "^4.1.0",
+    "lodash": "^4.17.19",
+    "query-string": "^6.13.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "local-repl": "^4.0.0",
+    "mocha": "^8.0.1"
+  },
+	"repl": {
+		"enableAwait": true
+	}
+}
