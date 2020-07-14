@@ -11,7 +11,9 @@ Build the docker image then set the environment variables
 - HOST
 - PORT
 
-For example, I'm hosting this on my private OpenVPN server and serving television to my folks. Love you momma.
+Deploy the docker image on a host with port 8080 exposed, then set your m3u playlist to the /playlist endpoint and your EPG url to /guide
+
+I'm hosting this on my private OpenVPN server and serving television to my folks. Love you mom.
 
 ## Author
 
