@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha --timeout 0",
+		"prettier": "cross-env prettier --write ./lib/*.js ./test/*.js ./bin/*.js",
     "start": "cross-env node bin/app"
   },
   "private": false,
@@ -26,9 +27,10 @@
     "chai": "^4.2.0",
     "dotenv": "^8.2.0",
     "local-repl": "^4.0.0",
-    "mocha": "^8.0.1"
+    "mocha": "^8.0.1",
+    "prettier": "^2.0.5"
   },
-	"repl": {
-		"enableAwait": true
-	}
+  "repl": {
+    "enableAwait": true
+  }
 }
